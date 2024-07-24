@@ -25,94 +25,7 @@ Welcome to the Daily Tasks Manager! This user-friendly web application helps you
 - **Mongoose**: ODM (Object Data Modeling) library for MongoDB and Node.js, providing a straightforward schema-based solution to model your data.
 - **Nodemon**: Tool for automatically restarting the server during development whenever code changes are detected.
 
-## Demo
 
-Check out the live demo of the Daily Tasks Manager [here](#).
-
-## Getting Started
-
-Follow these instructions to set up the project on your local machine for development and testing purposes.
-
-### Prerequisites
-
-Ensure you have the following installed:
-
-- Node.js
-- MongoDB
-
-### Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/your-username/daily-tasks-manager.git
-   ```
-
-2. **Navigate to the project directory:**
-
-   ```bash
-   cd daily-tasks-manager
-   ```
-
-3. **Install dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-4. **Start the MongoDB server:**
-
-   ```bash
-   mongod
-   ```
-
-5. **Start the application:**
-
-   ```bash
-   npm start
-   ```
-
-   Alternatively, if you have Nodemon installed globally, you can use:
-
-   ```bash
-   nodemon app.js
-   ```
-
-6. **Open the application in your web browser:**
-
-   ```bash
-   http://localhost:3000
-   ```
-
-## Project Structure
-
-```
-daily-tasks-manager/
-│
-├── models/                  # Contains Mongoose models
-│   └── task.js
-│
-├── public/                  # Contains static files (CSS, JS, images)
-│   ├── css/
-│   │   └── styles.css
-│   └── js/
-│       └── scripts.js
-│
-├── routes/                  # Contains route definitions
-│   └── index.js
-│
-├── views/                   # Contains EJS templates
-│   ├── partials/
-│   │   └── header.ejs
-│   └── index.ejs
-│
-├── .gitignore               # Git ignore file
-├── app.js                   # Main application file
-├── package.json             # Node.js package configuration
-├── README.md                # Project README file
-│
-└── ...                      # Other project files
-```
 
 ## Usage
 
@@ -144,5 +57,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Feel free to modify this introduction to better fit your project's specifics and your personal style.
+
 
