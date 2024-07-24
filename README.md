@@ -1,4 +1,4 @@
-Here's an elaborate GitHub introduction for your user-friendly web application for managing daily tasks:
+
 
 ---
 
